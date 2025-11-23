@@ -64,12 +64,6 @@ export default function Inscripcions() {
           </h1>
 
           <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 text-center">
-            <div className="mb-8">
-              <span className="inline-block bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-semibold">
-                Properament
-              </span>
-            </div>
-
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
               Les inscripcions s'obren aviat!
             </h2>
@@ -112,13 +106,13 @@ export default function Inscripcions() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="/#bases" 
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                className="my-auto bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out shadow-lg inline-block text-center"
               >
                 Consultar les bases
               </a>
               <a 
                 href="/contacte" 
-                className="bg-white border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                className="my-auto bg-white border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out inline-block text-center"
               >
                 Contacta'ns
               </a>
@@ -431,13 +425,13 @@ export default function Inscripcions() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="/" 
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out shadow-lg inline-block text-center"
             >
               Torna a l'inici
             </a>
             <a 
               href="/contacte" 
-              className="bg-white border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+              className="bg-white border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out inline-block text-center"
             >
               Contacta'ns
             </a>
