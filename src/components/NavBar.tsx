@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function NavBar() {
@@ -57,10 +58,10 @@ export default function NavBar() {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('inici')}
-              className={`px-3 py-2 text-sm font-medium transition-colors relative group ${
+              className={`px-3 py-2 text-base font-medium transition-colors relative group ${
                 activeSection === 'inici' 
                   ? 'text-blue-600' 
                   : 'text-gray-700 hover:text-blue-600'
@@ -75,7 +76,7 @@ export default function NavBar() {
             </button>
             <button
               onClick={() => scrollToSection('festival')}
-              className={`px-3 py-2 text-sm font-medium transition-colors relative group ${
+              className={`px-3 py-2 text-base font-medium transition-colors relative group ${
                 activeSection === 'festival' 
                   ? 'text-blue-600' 
                   : 'text-gray-700 hover:text-blue-600'
@@ -90,7 +91,7 @@ export default function NavBar() {
             </button>
             <button
               onClick={() => scrollToSection('bases')}
-              className={`px-3 py-2 text-sm font-medium transition-colors relative group ${
+              className={`px-3 py-2 text-base font-medium transition-colors relative group ${
                 activeSection === 'bases' 
                   ? 'text-blue-600' 
                   : 'text-gray-700 hover:text-blue-600'
@@ -105,7 +106,7 @@ export default function NavBar() {
             </button>
             <button
               onClick={() => scrollToSection('faqs')}
-              className={`px-3 py-2 text-sm font-medium transition-colors relative group ${
+              className={`px-3 py-2 text-base font-medium transition-colors relative group ${
                 activeSection === 'faqs' 
                   ? 'text-blue-600' 
                   : 'text-gray-700 hover:text-blue-600'
@@ -120,7 +121,7 @@ export default function NavBar() {
             </button>
             <button
               onClick={() => scrollToSection('organitzacio')}
-              className={`px-3 py-2 text-sm font-medium transition-colors relative group ${
+              className={`px-3 py-2 text-base font-medium transition-colors relative group ${
                 activeSection === 'organitzacio' 
                   ? 'text-blue-600' 
                   : 'text-gray-700 hover:text-blue-600'
@@ -133,6 +134,12 @@ export default function NavBar() {
                   : 'w-0 group-hover:w-full -translate-x-1/2'
               }`}></span>
             </button>
+            <Link 
+              href="/inscripcions" 
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-300 ease-out shadow-lg ml-4 inline-block"
+            >
+              Inscriu-te
+            </Link>
           </div>
         </div>
       </div>
