@@ -116,7 +116,7 @@ export default function Bases() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-200 text-center">
-            <Link href="/inscripcions" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg inline-block">
+            <Link href="/inscripcions" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-300 ease-out shadow-lg inline-block">
                   Inscriu el teu curtmetratge
             </Link>
           </div>

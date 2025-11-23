@@ -95,7 +95,7 @@ export default function FAQs() {
           <p className="text-gray-600 mb-4">
             No dubtis a contactar-nos. Estem aquí per ajudar-te!
           </p>
-          <Link href="/contacte" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+          <Link href="/contacte" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-300 ease-out shadow-lg inline-block">
               Contacta'ns
           </Link>
         </div>

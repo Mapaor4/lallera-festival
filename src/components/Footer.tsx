@@ -45,12 +45,7 @@ export default function Footer() {
                 </button>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Política de privacitat
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/legal" className="hover:text-white transition-colors">
                   Avís legal
                 </a>
               </li>
@@ -136,7 +131,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>© 2025 Festival La Llera. Tots els drets reservats.</p>
+          <p>© 2025 Associació Cultural La Llera del Ter. Tots els drets reservats.</p>
           <p className="mt-2">
             Festival de Curtmetratges de la Llera del Ter
           </p>

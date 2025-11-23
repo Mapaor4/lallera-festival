@@ -24,14 +24,14 @@ export default function Inici() {
           Festival La Llera
         </h1>
         <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-md">
-          Festival de Curtmetratges de la Llera del Ter
+          Festival de curtmetratges de la Llera del Ter
         </p>
         <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto drop-shadow-md">
           Descobreix el talent cinematogràfic dels pobles de la Llera del Ter. 
           Una celebració del cinema local amb les millors produccions de curtmetratges.
         </p>
-        <Link href="/inscripcions" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
-              Inscriu-te
+        <Link href="/inscripcions" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 hover:-translate-y-0.5 transition-all duration-300 ease-out shadow-lg inline-block">
+            Vés a les inscripcions
         </Link>
       </div>
 
